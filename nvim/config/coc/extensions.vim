@@ -12,4 +12,13 @@ let g:coc_global_extensions = [
       \ 'coc-sql',
       \ 'coc-tsserver',
       \ 'coc-yaml',
-      \ ]
+      \ 'coc-snippets',
+      \ 'coc-pairs',
+    	\ 'coc-tsserver',
+	    \ 'coc-prettier',
+	    \ 'coc-pyright',
+	    \ 'coc-phpls',
+	    \ 'coc-vetur',
+    	\ 'coc-explorer']
+
+		

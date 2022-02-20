@@ -81,6 +81,11 @@ RUN rm -rf /root/TMP
 # Bash aliases
 COPY ./home/ /root/
 
+
+RUN git clone https://github.com/gpakosz/.tmux.git
+RUN ln -s -f .tmux/.tmux.conf
+RUN cp .tmux/.tmux.conf.local .
+
 # Create directory for projects (there should be mounted from host).
 RUN mkdir -p /root/workspace
 
